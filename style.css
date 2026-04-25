@@ -1,0 +1,50 @@
+/* Element selector */
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Class selector */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* ID selector */
+#header {
+    background: linear-gradient(to right, #004aad, #00c6ff);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Group selector */
+h1, h2, h3 {
+    color: #003366;
+}
+
+/* Navigation images */
+.nav img {
+    width: 120px;
+    margin: 5px;
+}
+
+/* Descendant selector */
+.nav a img {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.nav a img:hover {
+    transform: scale(1.1);
+}
+
+/* Page background image example */
+.gallery-bg {
+    background-image: url("../images/img1.jpg");
+    background-size: cover;
+    padding: 50px;
+    color: white;
+}
